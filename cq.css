@@ -1,0 +1,190 @@
+.tab-bar {
+  display: flex;
+  justify-content: space-evenly;
+  margin-top: 40px;
+  align-items: center;
+  gap: 30px;
+}
+.tab-bar a {
+  text-decoration: none;
+  color: rgb(58, 54, 54);
+  font-size: 18px;
+}
+#cq_logo a img {
+  height: 23px;
+  width: 150px;
+}
+button {
+  transition: opacity 0.4s;
+}
+button:hover {
+  opacity: 0.8;
+}
+button:active {
+  opacity: 1;
+}
+#login-button {
+  background-color: #de6834;
+  border-radius: 7px;
+  border: none;
+  padding: 10px 15px;
+}
+#login-button a {
+  color: white;
+}
+.box-1 {
+  display: flex;
+  justify-content: center;
+}
+.heading-1 {
+  color: #de6834;
+  font-size: 50px;
+  font-weight: bold;
+}
+#button-2 {
+  background-color: #de6834;
+  color: white;
+  border-radius: 7px;
+  border: none;
+  padding: 16px 30px;
+  font-size: 20px;
+  margin-top: 30px;
+}
+#button-2 a {
+  text-decoration: none;
+  color: white;
+}
+#number-color-1 {
+  color: rgb(255, 171, 16);
+  font-size: 50px;
+  font-weight: bold;
+}
+#number-color-2 {
+  color: rgb(194, 91, 7);
+  font-size: 50px;
+}
+#same-text-color {
+  color: rgb(109, 103, 103);
+  font-size: 15px;
+}
+.logo-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+  padding: 2rem 1rem;
+}
+.logo-grid img {
+  max-width: 100px;
+  height: auto;
+}
+.container {
+display: flex;
+  gap: 2rem;
+justify-content: center;
+  margin: 40px;
+}
+.card {
+  background: #fff;
+  box-shadow: 10px 7px 24px rgba(28, 28, 59, 0.08);
+  border-radius: 18px;
+  padding: 32px 28px;
+  width: 400px;
+  min-height: 320px;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+}
+.card h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+.card h3 {
+  color: #ec6941;
+  font-size: 1.2rem;
+  margin: 0;
+  font-weight: 600;
+}
+.card p {
+  color: #676767;
+  font-size: 1rem;
+}
+.action-btn {
+  background: #ec6941;
+  color: #fff;
+  padding: 12px 22px;
+  border: none;
+  border-radius: 8px;
+  margin-right: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  margin-top: 18px;
+}
+.action-btn:last-child {
+  margin-right: 0;
+}
+.universities-logos {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 1.5rem;
+}
+.universities-logos img {
+  height: 70px;
+}
+.universities-logos-text {
+  font-size: 1.25rem;
+  line-height: 1.75rem;
+  font-weight: 700;
+  color: var(--text-cq-dark);
+  margin-bottom: 1rem;
+}
+.footer {
+  background-color: #092b43;
+  color: #f0f0f0;
+  padding: 40px 20px;
+  font-family: "Segoe UI", sans-serif;
+  margin-top: 50px;
+}
+.footer-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  gap: 30px;
+}
+.footer-column {
+  flex: 1;
+  min-width: 250px;
+}
+.footer-column h3 {
+  margin-bottom: 15px;
+  color: #ffffff;
+}
+.footer-column ul {
+  list-style: none;
+  padding: 0;
+}
+.footer-column ul li {
+  margin-bottom: 10px;
+}
+.footer-column a {
+  color: #f0f0f0;
+  text-decoration: none;
+}
+.footer-column a:hover {
+  text-decoration: none;
+  color: white;
+  text-shadow: 0 0 10px white;
+}
+.footer-bottom {
+  border-top: 1px solid #444;
+  margin-top: 30px;
+  padding-top: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+.footer-bottom a {
+  color: #ffffff;
+  margin: 0 5px;
+}
